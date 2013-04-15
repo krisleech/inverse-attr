@@ -14,23 +14,19 @@ gem 'inverse_attr'
 class Lesson
   include InverseAttr
 
-  def initialize(attributes)
-    @published = attributes.fetch(:published)
-  end
-
   def published?
-    @published
+    false
   end
 
   attr_inverse :published?
 end
 
-lesson = Lesson.new(:published => true)
+lesson = Lesson.new
 
-lesson.not_published? # => false
+lesson.not_published? # => true
 ```
 
-You can specify the inverted attribute by passing a second argument:
+You can specify the name of the inverted attribute by passing a second argument:
 
 ```ruby
 attr_inverse :published?, :draft?
