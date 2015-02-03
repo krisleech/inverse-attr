@@ -1,6 +1,6 @@
 # InverseAttr
 
-Provides macros which provides the inverse of an attribute.
+Provides a macro which adds methods to return the inverse of another.
 
 ## Installation
 
@@ -38,7 +38,7 @@ Don't want to put the include at the top of your classes?
 Object.class_eval { include InverseAttr }
 ```
 
-or more selective;
+or more selectively:
 
 ```ruby
 ActiveRecord::Base.class_eval { include InverseAttr }

@@ -12,5 +12,7 @@ module InverseAttr
         !send(source_attr)
       end
     end
+
+    private :inverted_attr
   end
 end
