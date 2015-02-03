@@ -14,7 +14,4 @@ Gem::Specification.new do |gem|
   gem.name          = "inverse_attr"
   gem.require_paths = ["lib"]
   gem.version       = InverseAttr::VERSION
-
-  gem.add_development_dependency 'rspec'
-  gem.add_development_dependency 'simplecov'
 end

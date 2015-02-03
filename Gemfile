@@ -1,4 +1,13 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in inverse_attr.gemspec
 gemspec
+
+gem 'rake',  '~> 10.3.0'
+gem 'rspec', '~> 3.0.0'
+gem 'coveralls', require: false
+
+group :extras do
+  gem 'flay'
+  gem 'pry'
+  gem 'yard'
+end

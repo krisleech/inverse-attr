@@ -1,5 +1,10 @@
 # InverseAttr
 
+[![Gem Version](https://badge.fury.io/rb/inverse-attr.png)](http://badge.fury.io/rb/inverse-attr)
+[![Code Climate](https://codeclimate.com/github/krisleech/inverse-attr.png)](https://codeclimate.com/github/krisleech/inverse-attr)
+[![Build Status](https://travis-ci.org/krisleech/inverse-attr.png?branch=master)](https://travis-ci.org/krisleech/inverse-attr)
+[![Coverage Status](https://coveralls.io/repos/krisleech/inverse-attr/badge.png?branch=master)](https://coveralls.io/r/krisleech/inverse-attr?branch=master)
+
 Provides a macro which adds methods to return the inverse of another.
 
 ## Installation
